@@ -1,0 +1,91 @@
+table{
+  margin-left: 0%;
+  position: absolute;
+  border-collapse: collapse;
+  background-color: #323232;
+  display:block;
+  overflow-y:scroll;
+  top: 100px;
+  height:500px;
+  width: 1370px;
+}
+
+th{
+  border-bottom: 1px solid #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+td{
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+tr{
+  font-size: 1em;
+}
+
+.id_col, .edit_col, .return_col, .f_col{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.date_col{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.t_col{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.q_col{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.c_col{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.p_col{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  display: inline-block;
+  background-color: #AFEEEE;
+}
+
+.dot:hover{
+	cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,40 @@
+create table record (
+	record_id int(8) not null PRIMARY KEY AUTO_INCREMENT,
+	date datetime not null,
+  type varchar(25) not null,
+  quantitiy int(3) not null,
+  id int(8) not null,
+  class varchar(3) not null,
+  pss int(8) not null
+);
+
+insert into record(date, type, quantitiy, id, class, pss) values (now(),'AAA 000 BBB','999','1','3D2', '1');
+
+  update record
+  set return_date = now(), return_quantity = '999', return_pss = '1'
+  where record_id = 1
+
+UPDATE record SET return_date = now(), return_quantity = '1', return_pss = '1' WHERE record_id ='50';
+
+<link rel="stylesheet" href="https://use.typekit.net/kox0unc.css">
+
+INSERT INTO bookrecord(type, name) VALUES('BK 910 NIK','GERAK GEMPUR PT3 GEOGRAFI T2');
+INSERT INTO bookrecord(type, name) VALUES('BK 910 NAB','GERAK GEMPUR PT3 GEOGRAFI T1');
+INSERT INTO bookrecord(type, name) VALUES('BK 959.5 MEE','GERAK GEMPUR PT3 SEJARAH T1/T2/T3');
+INSERT INTO bookrecord(type, name) VALUES('BK 499 HAN','GERAK GEMPUR PT3 BAHASA MELAYU T3');
+INSERT INTO bookrecord(type, name) VALUES('BK 499 TIH','GERAK GEMPUR PT3 BAHASA MELAYU T2');
+INSERT INTO bookrecord(type, name) VALUES('BK 499 RAJ','GERAK GEMPUR PT3 BAHASA MELAYU T1');
+INSERT INTO bookrecord(type, name) VALUES('BK 620 MOH','PRAKTIS TOPIKAL PA21 REKA BENTUK DAN TEKNOLOGI T3');
+INSERT INTO bookrecord(type, name) VALUES('BK 537.2 CHO','TOP SCIENCE F3 KSSM');
+INSERT INTO bookrecord(type, name) VALUES('BK 510 JAN','TOP MATHEMATICS F3 KSSM');
+INSERT INTO bookrecord(type, name) VALUES('BK 495 LBC','LATIHAN BAHASA CINA T3');
+INSERT INTO bookrecord(type, name) VALUES('BK 495 KMB','KERTAS MODEL BAHASA CINA SPM');
+INSERT INTO bookrecord(type, name) VALUES('BK 657 TIM','KUNCI SPM PRINSIP PERAKAUNAN');
+INSERT INTO bookrecord(type, name) VALUES('BK 510 ZAF','SIRI RAMALAN TERBAIK KERTAS MODEL SPM MATHEMATICS');
+INSERT INTO bookrecord(type, name) VALUES('BK 537.2 ROZ','SIRI RAMALAN TERBAIK KERTAS MODEL SPM SCIENCE');
+INSERT INTO bookrecord(type, name) VALUES('BK 499 NUR','SIRI RAMALAN TERBAIK KERTAS MODEL SPM BAHASA MELAYU');
+INSERT INTO bookrecord(type, name) VALUES('BK 959.5 ANI','SIRI RAMALAN TERBAIK KERTAS MODEL SPM SEJARAH');
+INSERT INTO bookrecord(type, name) VALUES('BK 499 TEO','PT3 BAHAGIAN A: SISTEM BAHASA/ BAHAGIAN C: PEMINDAHAN MAKLUMAT(ULASAN)');
+INSERT INTO bookrecord(type, name) VALUES('BK 420 LEO','PT3 SECTION A CORRECTING GRAMMATICAL ERRORS + BONUS SECTION B: QUESTION 3');
+INSERT INTO bookrecord(type, name) VALUES('BK 420 YST','SELECTED POEMS, SHORT STORY & DRAMA ');
+INSERT INTO bookrecord(type, name) VALUES('BK 420 JAM','SELECTED POEMS, SHORT STORY & NOVEL - THE SWISS FAMILY ROBINSON');
